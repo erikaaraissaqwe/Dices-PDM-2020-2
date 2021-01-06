@@ -2,17 +2,63 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/mensagemTv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:padding="7dp"
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/jogarBt"
+        android:layout_width="392dp"
+        android:layout_height="79dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="@string/jogar"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ButtonStyle,MissingConstraints,OnClick"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/resultadoTv"
+        android:layout_width="382dp"
+        android:layout_height="56dp"
+        android:padding="7dp"
+        android:text="@string/nao_lancado"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="188dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/resultadoIv"
+        android:layout_width="208dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="267dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

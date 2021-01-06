@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Dices</string>
+    <string name="nao_lancado">Não Lançado!</string>
+    <string name="jogar">Jogar</string>
+    <string name="result">Clique no botão e jogue o dado!</string>
 </resources>
