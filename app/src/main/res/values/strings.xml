@@ -3,4 +3,11 @@
     <string name="nao_lancado">Não Lançado!</string>
     <string name="jogar">Jogar</string>
     <string name="result">Clique no botão e jogue o dado!</string>
+    <string name="configuracoes">Configuracoes</string>
+    <string name="quantos_dados">Quantos dados?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="quantidades_de_faces">Quais serão as quantidades de faces?</string>
+    <string name="salvar">Salvar</string>
+    <string name="configurac_es">Configuracões</string>
 </resources>
